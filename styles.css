@@ -31,8 +31,20 @@
     font-weight: 900;
     text-align: center;
     width: 70%;
+    padding-bottom: 20px;
 }
-
+.container > a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #fafafa;
+    filter: drop-shadow(5px 5px 10px #000);
+    font-size: 20px;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    color: #630a6b;
+}
 @media (max-width: 690px){
     .container{
         background-position: center;
