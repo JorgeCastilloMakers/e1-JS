@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(assets/messirve.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container > h1{
+    font-size: 60px;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 10px;
+    filter: drop-shadow(5px 5px 10px #000);
+    text-align: center;
+}
+.container > h2{
+    color: #630a6b;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    width: 70%;
+}
+
+@media (max-width: 690px){
+    .container{
+        background-position: center;
+    }
+}
